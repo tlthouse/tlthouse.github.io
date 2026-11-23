@@ -104,7 +104,7 @@
       "puffs": "1200",
       "strength": "",
       "stock": true,
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mmatooker-rgb/tlt-house/main/docs/uploads/1795469578285-IMG_3236.jpg",
       "description": "Компактная одноразка на каждый день.",
       "flavors": [
         {
@@ -113,7 +113,7 @@
         }
       ],
       "createdAt": "2026-11-23T20:26:32.389Z",
-      "updatedAt": "2026-11-23T20:48:54.498Z"
+      "updatedAt": "2026-11-23T21:33:13.804Z"
     }
   ]
 }
