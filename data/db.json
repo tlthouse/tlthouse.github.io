@@ -82,20 +82,16 @@
       "puffs": "3000",
       "strength": "",
       "stock": true,
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mmatooker-rgb/tlt-house/main/docs/uploads/1795469434064-IMG_3235.jpg",
       "description": "В одном устройстве два бака с разными вкусами — переключайтесь когда захотите.",
       "flavors": [
         {
-          "name": "Свежая мята",
-          "available": true
-        },
-        {
-          "name": "Апельсиновый фреш",
+          "name": "Свежая мята/Апельсиновый фреш",
           "available": true
         }
       ],
       "createdAt": "2026-11-23T20:26:32.389Z",
-      "updatedAt": "2026-11-23T20:33:47.808Z"
+      "updatedAt": "2026-11-23T21:30:50.184Z"
     },
     {
       "id": "micool-1200",
