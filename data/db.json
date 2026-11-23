@@ -1,0 +1,123 @@
+{
+  "settings": {
+    "brand": "TLT HOUSE",
+    "tagline": "Вкус, который запоминается",
+    "heroTitle": "TLT HOUSE",
+    "heroSubtitle": "Подборка жиж и одноразок с нашего канала. Актуальные вкусы и наличие — прямо здесь.",
+    "telegramMain": "@tlthouse1",
+    "telegramReviews": "@tlthouse2",
+    "telegramLink": "https://t.me/tlthouse1",
+    "reviewsLink": "https://t.me/tlthouse2",
+    "announcement": "Новые вкусы и поступления — первыми в канале.",
+    "disclaimer": "Продукт содержит никотин. Никотин — химическое вещество, вызывающее привыкание. Информация носит ознакомительный характер и не является рекламой. Для лиц старше 18 лет.",
+    "currency": "₽",
+    "accent": "#b026ff",
+    "ageGate": true
+  },
+  "products": [
+    {
+      "id": "koma-81",
+      "order": 1,
+      "name": "KOMA 81 mg",
+      "category": "Жижа",
+      "badge": "ХИТ",
+      "price": 400,
+      "oldPrice": 0,
+      "puffs": "",
+      "strength": "81 mg",
+      "stock": true,
+      "image": "",
+      "description": "Жижа для заправки. Насыщенный вкус и плотная затяжка.",
+      "flavors": [
+        {
+          "name": "Ягодный редбулл",
+          "available": true
+        },
+        {
+          "name": "Морозные лесные ягоды",
+          "available": true
+        }
+      ],
+      "createdAt": "2026-11-23T20:26:32.388Z",
+      "updatedAt": "2026-11-23T20:33:47.807Z"
+    },
+    {
+      "id": "toro-3500",
+      "order": 2,
+      "name": "Ашка Topol 3500",
+      "category": "Одноразки",
+      "badge": "3500 ТЯГ",
+      "price": 350,
+      "oldPrice": 0,
+      "puffs": "3500",
+      "strength": "",
+      "stock": true,
+      "image": "",
+      "description": "Одноразовое устройство на 3500 тяг. Удобно брать с собой.",
+      "flavors": [
+        {
+          "name": "Жевательная резинка",
+          "available": true
+        },
+        {
+          "name": "Кокосовая мечта",
+          "available": true
+        },
+        {
+          "name": "Сочный персик",
+          "available": true
+        }
+      ],
+      "createdAt": "2026-11-23T20:26:32.389Z",
+      "updatedAt": "2026-11-23T20:33:47.808Z"
+    },
+    {
+      "id": "topol-gemini-s",
+      "order": 3,
+      "name": "Ашка Topol Gemini S",
+      "category": "Одноразки",
+      "badge": "2 ВКУСА В ОДНОМ",
+      "price": 250,
+      "oldPrice": 0,
+      "puffs": "3000",
+      "strength": "",
+      "stock": true,
+      "image": "",
+      "description": "В одном устройстве два бака с разными вкусами — переключайтесь когда захотите.",
+      "flavors": [
+        {
+          "name": "Свежая мята",
+          "available": true
+        },
+        {
+          "name": "Апельсиновый фреш",
+          "available": true
+        }
+      ],
+      "createdAt": "2026-11-23T20:26:32.389Z",
+      "updatedAt": "2026-11-23T20:33:47.808Z"
+    },
+    {
+      "id": "micool-1200",
+      "order": 4,
+      "name": "micool 1200",
+      "category": "Одноразки",
+      "badge": "1200 ТЯГ",
+      "price": 160,
+      "oldPrice": 0,
+      "puffs": "1200",
+      "strength": "",
+      "stock": true,
+      "image": "",
+      "description": "Компактная одноразка на каждый день.",
+      "flavors": [
+        {
+          "name": "Личи айс",
+          "available": true
+        }
+      ],
+      "createdAt": "2026-11-23T20:26:32.389Z",
+      "updatedAt": "2026-11-23T20:48:54.498Z"
+    }
+  ]
+}

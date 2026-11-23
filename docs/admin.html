@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07060b">
+  <title>TLT HOUSE — админка</title>
+  <link rel="icon" href="assets/avatar.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="glow glow-1"></div>
+
+  <div id="setupScreen" class="login-screen hidden">
+    <form id="setupForm" class="login-card">
+      <img src="assets/avatar.png" alt="" class="age-logo">
+      <div class="eyebrow small">Первый запуск</div>
+      <h1>Настройка GitHub</h1>
+      <p>Нужен токен с правом чтения/записи репозитория и пароль для админки.</p>
+      <label class="field">
+        <span>GitHub token</span>
+        <input id="setupToken" type="password" placeholder="ghp_..." required autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Пароль админки</span>
+        <input id="setupPassword" type="password" placeholder="Минимум 6 символов" minlength="6" required autocomplete="new-password">
+      </label>
+      <button type="submit" class="btn btn-primary btn-block">Сохранить</button>
+      <a href="index.html" class="back-link">← Вернуться в каталог</a>
+    </form>
+  </div>
+
+  <div id="loginScreen" class="login-screen">
+    <form id="loginForm" class="login-card">
+      <img src="assets/avatar.png" alt="" class="age-logo">
+      <div class="eyebrow small">TLT HOUSE</div>
+      <h1>Вход в админку</h1>
+      <p>Управление каталогом с телефона</p>
+      <label class="field">
+        <span>Пароль</span>
+        <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Введите пароль" required>
+      </label>
+      <button type="submit" class="btn btn-primary btn-block">Войти</button>
+      <a href="index.html" class="back-link">← Вернуться в каталог</a>
+    </form>
+  </div>
+
+  <div id="app" class="admin-app hidden">
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="index.html" class="brand">
+          <img src="assets/avatar.png" alt="" class="brand-logo">
+          <span class="brand-text">TLT HOUSE <small>админка</small></span>
+        </a>
+        <button id="logoutBtn" class="btn btn-ghost btn-sm">Выйти</button>
+      </div>
+    </header>
+
+    <main class="wrap admin-main">
+      <nav class="tabs">
+        <button class="tab active" data-tab="products">Товары</button>
+        <button class="tab" data-tab="settings">Настройки</button>
+        <button class="tab" data-tab="security">Пароль</button>
+      </nav>
+
+      <section id="tab-products" class="tab-panel">
+        <div class="panel-head">
+          <div><h2>Товары</h2><p>Наличие, вкусы и цены обновляются сразу на сайте.</p></div>
+          <button id="addProduct" class="btn btn-primary">+ Добавить</button>
+        </div>
+        <div id="adminProducts" class="admin-list"></div>
+      </section>
+
+      <section id="tab-settings" class="tab-panel hidden">
+        <div class="panel-head"><div><h2>Настройки сайта</h2><p>Тексты, ссылки и disclaimer.</p></div></div>
+        <form id="settingsForm" class="form-card"></form>
+      </section>
+
+      <section id="tab-security" class="tab-panel hidden">
+        <div class="panel-head"><div><h2>Смена пароля</h2><p>Пароль для входа в админку.</p></div></div>
+        <form id="passwordForm" class="form-card">
+          <label class="field"><span>Текущий пароль</span><input name="current" type="password" autocomplete="current-password" required></label>
+          <label class="field"><span>Новый пароль</span><input name="next" type="password" autocomplete="new-password" minlength="6" required></label>
+          <button class="btn btn-primary" type="submit">Сменить пароль</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <div id="editor" class="editor-overlay hidden">
+    <div class="editor-sheet">
+      <div class="editor-head">
+        <h2 id="editorTitle">Товар</h2>
+        <button id="editorClose" class="icon-btn" aria-label="Закрыть">✕</button>
+      </div>
+      <form id="productForm" class="editor-form"></form>
+    </div>
+  </div>
+
+  <div id="adminToast" class="toast"></div>
+  <script src="config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
