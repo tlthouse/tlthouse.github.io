@@ -20,9 +20,9 @@
       "order": 1,
       "name": "KOMA 81 mg",
       "category": "Жижа",
-      "badge": "ХИТ",
-      "price": 400,
-      "oldPrice": 0,
+      "badge": "❗️СКИДКА❗️",
+      "price": 350,
+      "oldPrice": 400,
       "puffs": "",
       "strength": "81 mg",
       "stock": true,
@@ -39,7 +39,7 @@
         }
       ],
       "createdAt": "2026-11-23T20:26:32.388Z",
-      "updatedAt": "2026-11-23T21:28:20.052Z"
+      "updatedAt": "2026-11-24T12:17:27.813Z"
     },
     {
       "id": "toro-3500",
