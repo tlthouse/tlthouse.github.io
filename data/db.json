@@ -57,7 +57,7 @@
       "flavors": [
         {
           "name": "Жевательная резинка",
-          "available": true
+          "available": false
         },
         {
           "name": "Кокосовая мечта",
@@ -65,11 +65,11 @@
         },
         {
           "name": "Сочный персик",
-          "available": true
+          "available": false
         }
       ],
       "createdAt": "2026-11-23T20:26:32.389Z",
-      "updatedAt": "2026-11-23T21:21:59.960Z"
+      "updatedAt": "2026-11-24T12:23:33.771Z"
     },
     {
       "id": "topol-gemini-s",
